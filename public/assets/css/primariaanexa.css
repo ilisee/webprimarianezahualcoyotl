@@ -1,0 +1,259 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.5s;
+}
+p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #4a4a4a;
+	line-height: 24px;
+}
+a {
+	text-decoration: none!important;
+}
+
+/* Banner*/
+.banner {
+	margin-top: 0px;
+	background-color:#004AAD;
+	background-image: url(../images/banner1.png);
+	
+	background-repeat: no-repeat;
+	padding: 400px 0px;
+	width: 100%;
+	height: auto;
+	
+	background-position: center center;
+}
+
+/* Cabecera */
+.cabecera {
+	background-color:#004AAD;
+	text-align: center;
+}
+.cabecera ul {
+	padding: 0px;
+	margin: 0px;
+}
+.cabecera ul li {
+	list-style: none;
+	display: inline-block;
+}
+.cabecera .logo img {
+	max-width: 100%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.cabecera .cabecera-menu {
+	margin-bottom: 40px;
+}
+.cabecera .cabecera-menu ul li {
+	margin: 0px 15px;
+}
+.cabecera .cabecera-menu a {
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+.cabecera .cabecera-menu a:hover {
+	color: #a6761b;
+	text-decoration: none;
+}
+
+/* Redes sociales*/
+.redes {
+	background-color:#004AAD;
+	padding: 10px 0px;
+}
+.redes .left {
+	text-align: left;
+}
+.redes .right {
+	text-align: right;
+	
+}
+.redes ul {
+	padding: 0px;
+	margin: 0px;
+}
+.redes ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.redes .social-icons {
+	margin-bottom: 1px;
+}
+.redes .social-icons ul li {
+	margin: 0px 10px;
+}
+.redes .social-icons a {
+	width: 32px;
+	height: 32px;
+	color: #004AAD;
+	background-color: #fff;
+	text-align: center;
+	display: inline-block;
+	line-height: 33px;
+	border-radius: 50%;
+	font-size: 13px;
+	transition: all 0.5s;
+}
+.redes .social-icons a:hover {
+	background-color: #a6761b;
+}
+
+
+/* Destacados */
+.pagina-destacados {
+	margin-top: 130px;
+	margin-bottom: 40px;
+}
+.pagina-destacados .cabecera-seccion {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.pagina-destacados #filters {
+	margin-top: 15px;
+	text-align: right;
+}
+.destacados .destacados-item {
+	background-color: #fff;
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+.destacados .destacados-item h4 {
+	transition: all 0.8s;
+}
+.destacados .destacados-item:hover h4 {
+	color: #a6761b;
+}
+.destacados-items {
+	margin-bottom: 70px;
+}
+.destacados-item {
+	border-radius: 5px;
+	border: 1px solid #eee;
+	padding: 20px;
+	transition: all 0.5s;
+}
+.destacados-item:hover {
+	opacity: 0.9;
+}
+.destacados-item img {
+	width: 100%;
+}
+.destacados-item h4 {
+	font-size: 17px;
+	font-weight: 700;
+	color: #004AAD;
+	margin-top: 15px;
+	transition: all 0.5s;
+}
+.destacados-item:hover h4 {
+	color: #a6761b;
+}
+.destacados-item h6 {
+	color: #004AAD;
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.cabecera-seccion {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	
+}
+.cabecera-seccion .line-dec {
+	width: 60px;
+	height: 10px;
+	background-color: #004AAD;
+}
+.cabecera-seccion h1 {
+	
+	font-size: 22px;
+	font-weight: 700;
+	color: #1e1e1e;
+	margin-top: 15px;
+}
+.cabecera-seccion span {
+	color: #004AAD;
+	}
+
+/* Pie */
+.pie {
+	background-color:#004AAD;
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+.pie p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 60px;
+}
+.copyright {
+	text-transform: uppercase;
+}
+
+
+/* Nosotros*/
+.pagina-nosotros {
+	margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.pagina-nosotros .contenido-derecho h2 {
+	font-size: 30px;
+	text-align: center;
+	
+}
+.pagina-nosotros .imagen-izq img {
+	max-width: 100%;
+}
+
+/* Responsivo */
+@media (max-width: 991px) {
+
+	.banner {
+		border-top: none;
+		margin-top: 0px;
+	}
+	.pagina-nosotros .contenido-derecho {
+		margin-top: 30px;
+	}
+	.pagina-destacados {
+		margin-top: 80px;
+	}
+	.pagina-nosotros
+	 {
+		margin-top: 0px;
+	}
+
+}
+
+
+
+/* Anuncios */
+.anuncios {
+	background-color: #004AAD;
+	padding: 80px 0px;
+	text-align: center;
+}
+.anuncios .section-heading  {
+	margin-top: 0px;
+}
+.anuncios .section-heading h1 {
+	color: #fff;
+}
+.anuncios .section-heading .line-dec {
+	background-color: #fff;
+	margin: 0 auto;
+}
+.anuncios .main-content p {
+	font-size: 17px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+
